@@ -1,0 +1,32 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color:tomato;
+}
+.button{
+    -fx-background-color: lawngreen;
+     -fx-background-radius:30px;
+     -fx-border-width:3px;
+     -fx-border-color:black;
+     -fx-border-radius:30px;
+     -fx-width:70px;
+      
+}
+.button:pressed{
+    
+     -fx-background-radius:30px;
+     -fx-border-width:0px;
+     -fx-border-radius:0px;
+}
+.button:hover{
+    -fx-cursor:hand;
+    -fx-background-color: chocolate;
+}
+.button {
+    -fx-color:red;
+}
+.label{
+    -fx-color:orange;
+}
