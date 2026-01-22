@@ -15,7 +15,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.stage.Stage;
+import javafx.stage.Stage; 
 
 public class MotorANDlight extends Application {
 
@@ -30,7 +30,7 @@ public class MotorANDlight extends Application {
         root.getStylesheets().add(css);
         primaryStage.show();
         }catch(IOException e){
-            System.out.println("Failed to load FXML!!");
+            System.out.println("Failed to load FXML!");
         }
     }
 
